@@ -285,3 +285,68 @@ h5
     opacity: 1
 }
 /****************************************************************/
+/* start of 5th section */
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #a94442;
+
+}
+
+.contact .container {
+    margin-top: 50px;
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.container .input1 {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.container .input2 {
+    float: right;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.container input,
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    border: 1px solid lightgray;
+}
+
+.container .input3 {
+    margin-top: 20px;
+}
+
+.container textarea {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container .submit {
+    margin-top: 20px;
+}
+
+.submit .btn {
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff305b;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+
+.submit .btn:hover {
+    background-color: #ff350b;
+    cursor: not-allowed;
+}
+
