@@ -137,14 +137,68 @@ h5
     border-radius: 5px;
 }
 /*End of Second Section*/
-
-
-
-
-
-
-
-
-
-
-
+/*start services*/
+.services{
+    width:100%;
+    background-color: #ddd;
+    text-align: center;
+    padding: 50px 0
+}
+.services h1{
+    font-size: 50px;
+    margin:50px 0;
+    padding-bottom: 20px;
+    position: relative
+}
+.services h1:after{
+    content: "";
+    width: 150px;
+    height: 20px;
+    background-color: transparent;
+    border-top:3px solid #ff305b;
+    border-bottom: 3px solid #ff305b;
+    position: absolute;
+    right: 44%;
+    top: 90%
+}
+.services h1:before{
+    content: "";
+    width:300px;
+    height: 3px;
+    background-color: #ff305b;
+    position: absolute;
+    bottom: -7%;
+    right: 38.5%
+}
+.services .container{
+    overflow: auto;
+    margin-top:100px;
+    margin-bottom: 50px
+}
+.services .container div{
+    width: 25%;
+    float:left;
+    text-align: center;
+    padding: 5px;
+    transition: .5s ease;
+    overflow: hidden;
+    perspective: 600px
+}
+.services .container div i , .services .container div h2 , .services .container div p{
+    margin: 20px;
+    color:#686868;
+    transition: .5s ease
+} 
+.services .container div i{
+    color:#ff305b
+}
+.services .container div:hover{
+    background-color: #fff
+}
+.services .container div:hover i{
+    transform: translatez(50px)
+}
+.services .container div h2{
+    color: #000
+}
+/****************************************************************/
