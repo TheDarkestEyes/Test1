@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.clr
+{
+    clear: both;
+}
+.home
+{
+background-image:  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(img/slider-01.jpg);
+    background-size: 100% 110%;
+    width: 100%;
+    height: 650px;
+}
+.red
+{
+    color: red;
+}
+.white
+{
+    color: white;
+}
+.big
+{
+    font-size: 25px;
+}
+.nav
+{
+    background-color: tomato;
+    background-color: transparent;
+}
+.nav ul
+{
+    list-style-type: none;
+    overflow: auto;
+}
+.nav ul li
+{
+    float: right;
+    padding: 20px 20px;
+}
+.nav .left
+{
+    float: left;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover
+{
+    color: red;
+}
+.home-det
+{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 120px;
+    overflow: hidden;
+}
+h5
+{
+    position: relative;
+    animation-name: mido;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
